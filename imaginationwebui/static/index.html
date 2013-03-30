@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<style type="text/css">
+		body { font-family:Arial; font-size:12pt; padding:20px; width:100%; margin:20px auto; }
+		ul { margin:0px; padding:0px; margin-left:20px; }
+		#photos { width:100%; list-style-type:none; margin:0px; }
+		#photos li { float:left; padding:5px; width:150px; height:100px; }
+		#photos div { width:140px; height:50px; border:solid 1px black; background-color:#E0E0E0; text-align:center; padding-top:40px; }
+		.placeHolder div { background-color:white !important; border:dashed 1px gray !important; }
+        .hidden { display: none; }
+	</style>
+</head>
+<body>
+	<ul id="photos">
+		<li><div>1</div></li>
+        <li><div>2</div></li>
+		<li><div>3</div></li>
+		<li><div>4</div></li>
+		<li><div>5</div></li>
+		<li><div>6</div></li>
+		<li><div>7</div></li>
+		<li><div>8</div></li>
+		<li><div>9</div></li>
+		<li><div>10</div></li>
+		<li><div>11</div></li>
+		<li><div>12</div></li>
+		<li><div>13</div></li>
+		<li><div>14</div></li>
+		<li><div>15</div></li>
+		<li><div>16</div></li>
+		<li><div>17</div></li>
+        <li>
+            <div>
+                <span data-type="editable" data-for=".editable-area">Edit me!</span>
+                <textarea class="editable-area hidden"></textarea>
+            </div>
+        </li>
+	</ul>
+	
+	<div style="clear:both;"></div>
+
+	<!-- save sort order here which can be retrieved on server on postback -->
+	<input name="photosOrder" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.dragsort.js"></script>
+	<script type="text/javascript" src="jquery.editable-1.0.1.js"></script>
+	<script type="text/javascript">
+		function savePhotosOrder() {
+            var data = $("#photos li").map(function() {
+                return $(this).children().html();
+            }).get();
+			$("input[name=photosOrder]").val(data.join("|"));
+		};
+		
+        $("#photos").dragsort({
+            dragSelector: "div",
+            dragBetween: true,
+            dragEnd: savePhotosOrder,
+            placeHolderTemplate: "<li class='placeHolder'><div></div></li>"
+        });
+
+        $('#photos').editables({ 
+            beforeEdit: function(field){
+                field.val(this.text());
+            },
+            beforeFreeze: function(display){ 
+                display.text(this.val());
+            }
+        });
+	</script>
+</body>
+</html>
