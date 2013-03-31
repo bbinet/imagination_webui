@@ -16,6 +16,11 @@ def list(request):
     return slides
 
 
+@view_config(route_name='reorder', renderer='string')
+def reorder(request):
+    return 'reorder'
+
+
 @view_config(route_name='update', renderer='string')
 def update(request):
     return 'update'
