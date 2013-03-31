@@ -1,4 +1,5 @@
 from pyramid.view import view_config
+from pyramid.response import Response
 
 
 @view_config(route_name='list', renderer='json')
@@ -18,3 +19,10 @@ def list(request):
 @view_config(route_name='update', renderer='string')
 def update(request):
     return 'update'
+
+
+@view_config(route_name='export')
+def export(request):
+    resp = Response(content_type='text/plain')
+    request.registry.imgconfig.write(resp.body_file)
+    return resp
