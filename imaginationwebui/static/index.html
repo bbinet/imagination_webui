@@ -36,8 +36,8 @@
                 items.push(
                     '<li>' +
                     '<img src="' + val.url + '">' +
-                    '<div data-type="editable" data-for=".editable-area' + idx + '">' + val.text + '</div>' +
-                    '<textarea class="editable-area' + idx + ' hidden"></textarea>' +
+                    '<div data-type="editable" data-for="#' + idx + '">' + val.text + '</div>' +
+                    '<textarea class="hidden" id="' + idx + '"></textarea>' +
                     '</li>');
             });
             $('ul#photos').html(items.join(''));
@@ -51,7 +51,8 @@
             });
         });
 		function savePhotosOrder() {
-            var data = $("#photos li").map(function() {
+            var data = $("#photos li textarea").map(function() {
+                return $(this).attr("id")
                 return $(this).children().html();
             }).get();
 			$("input[name=photosOrder]").val(data.join("|"));
