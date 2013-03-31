@@ -4,10 +4,11 @@
 video format=576
 background color=0;0;0;
 distort images=true
-number of slides=10
+number of slides=3
 
 [slide 1]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040627_044611.jpg
+filename=http://farm8.staticflickr.com/7090/7293389198_d621b25d62_n.jpg
+text=commentaire
 angle=0
 duration=1
 transition_id=-1
@@ -22,13 +23,13 @@ font color=0;0;0;1;
 font bgcolor=1;1;1;1;
 
 [slide 2]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040629_074007.jpg
+filename=http://farm8.staticflickr.com/7081/7293391054_2d7dc588e0_n.jpg
+text=commentaire
 angle=0
 duration=1
 transition_id=-1
 speed=4
 no_points=0
-text=test
 anim id=1
 anim duration=1
 text pos=4
@@ -38,112 +39,8 @@ font color=0.75289539940489814;0;0;1;
 font bgcolor=1;1;1;1;
 
 [slide 3]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20060309_160255.jpg
-angle=0
-duration=1
-transition_id=-1
-speed=4
-no_points=0
-anim id=0
-anim duration=1
-text pos=4
-placing=0
-font=Sans 12
-font color=0;0;0;1;
-font bgcolor=1;1;1;1;
-
-[slide 4]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040626_141133.jpg
-angle=0
-duration=1
-transition_id=-1
-speed=4
-no_points=0
-anim id=0
-anim duration=1
-text pos=4
-placing=0
-font=Sans 12
-font color=0;0;0;1;
-font bgcolor=1;1;1;1;
-
-[slide 5]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20060309_105909.jpg
-angle=0
-duration=1
-transition_id=-1
-speed=4
-no_points=0
-anim id=0
-anim duration=1
-text pos=4
-placing=0
-font=Sans 12
-font color=0;0;0;1;
-font bgcolor=1;1;1;1;
-
-[slide 6]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040628_205000.jpg
-angle=0
-duration=1
-transition_id=-1
-speed=4
-no_points=0
-anim id=0
-anim duration=1
-text pos=4
-placing=0
-font=Sans 12
-font color=0;0;0;1;
-font bgcolor=1;1;1;1;
-
-[slide 7]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040627_055415.jpg
-angle=0
-duration=1
-transition_id=-1
-speed=4
-no_points=0
-anim id=0
-anim duration=1
-text pos=4
-placing=0
-font=Sans 12
-font color=0;0;0;1;
-font bgcolor=1;1;1;1;
-
-[slide 8]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040627_201833.jpg
-angle=0
-duration=1
-transition_id=-1
-speed=4
-no_points=0
-anim id=0
-anim duration=1
-text pos=4
-placing=0
-font=Sans 12
-font color=0;0;0;1;
-font bgcolor=1;1;1;1;
-
-[slide 9]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040626_012529.jpg
-angle=0
-duration=1
-transition_id=-1
-speed=4
-no_points=0
-anim id=0
-anim duration=1
-text pos=4
-placing=0
-font=Sans 12
-font color=0;0;0;1;
-font bgcolor=1;1;1;1;
-
-[slide 10]
-filename=/home/bruno/Desktop/Develop_Concours_photos/p20040626_000120.jpg
+filename=http://farm8.staticflickr.com/7223/7184461013_1a78d9ca74_n.jpg
+text=commentaire
 angle=0
 duration=1
 transition_id=-1
