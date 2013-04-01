@@ -31,7 +31,11 @@ def export(request):
 
 @view_config(route_name='flickrimport', renderer='json')
 def flickrimport(request):
-    url = 'http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=268c0d669b7b50a951bd0d6bb9ab2669&photoset_id=72157633137000735&format=json&nojsoncallback=1&extras=url_n,url_o,url_l'
+    url = 'http://api.flickr.com/services/rest/' \
+            '?method=flickr.photosets.getPhotos' \
+            '&api_key=268c0d669b7b50a951bd0d6bb9ab2669' \
+            '&photoset_id=72157633137000735&format=json' \
+            '&nojsoncallback=1&extras=url_n,url_o,url_l'
     data = json.load(urllib2.urlopen(url))
     slides = {}
     for i, photo in enumerate(data['photoset']['photo']):
