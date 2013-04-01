@@ -16,6 +16,8 @@ def reorder(request):
 
 @view_config(route_name='update', renderer='string')
 def update(request):
+    request.registry.slides[request.params['slide']]['text'] = \
+            request.params.get('text', '')
     return 'update'
 
 
