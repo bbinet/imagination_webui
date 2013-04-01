@@ -7,9 +7,11 @@ def list(request):
     return request.registry.slides
 
 
-@view_config(route_name='reorder', renderer='string')
+@view_config(route_name='reorder', renderer='json')
 def reorder(request):
-    return 'reorder'
+    for position, slide in enumerate(request.params.get('order').split('|')):
+        request.registry.slides[slide]['position'] = position
+    return request.registry.slides
 
 
 @view_config(route_name='update', renderer='string')
