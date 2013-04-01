@@ -3,12 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <style type="text/css">
-        body { font-family:Arial; font-size:12pt; padding:20px; width:100%; margin:20px auto; }
-        ul { margin:0px; padding:0px; margin-left:20px; }
+        body { font-family:Arial; font-size:12pt; width:100%; margin:0; }
+        ul { margin:0px; padding:0px; margin:0px; }
         #photos { width:100%; list-style-type:none; margin:0px; }
-        #photos li { float:left; padding:5px; width:320px; height:340px; text-align:center;}
+        #photos li { float:left; padding:30px 5px; width:320px; height:340px; text-align:center;}
         .placeHolder div { width:320px; height:340px; background-color:white !important; border:dashed 1px gray !important; }
         .hidden { display: none; }
+        .editable { width:100%; }
     </style>
 </head>
 <body>
@@ -30,8 +31,8 @@
                     html:
                     '<li>' +
                     '<img src="' + val.url + '" />' +
-                    '<div data-type="editable" data-for="#' + key + '">' + val.text + '</div>' +
-                    '<textarea class="hidden" id="' + key + '"></textarea>' +
+                    '<div style="height:30px" data-type="editable" data-for="#' + key + '">' + val.text + '</div>' +
+                    '<input class="hidden editable" id="' + key + '"></input>' +
                     '</li>',
                     position: val.position
                 });
@@ -44,10 +45,17 @@
             });
             $('ul#photos').html(items.join(''));
             $('ul#photos').editables({
+                freezeOn: ['click', 'blur', 'keyup'],
                 beforeEdit: function(field){
                     field.val(this.text());
                 },
-                beforeFreeze: function(display){
+                beforeFreeze: function(display, evt) {
+                    if ((evt.type == 'keyup') && (evt.which == 27)) {
+                        return true;
+                    }
+                    if ((evt.type == 'keyup') && (evt.which != 13)) {
+                        return false;
+                    }
                     var val = this.val();
                     display.text(val);
                     $.post("../update", {
@@ -58,7 +66,7 @@
             });
         });
         function savePhotosOrder() {
-            var data = $("#photos li textarea").map(function() {
+            var data = $("#photos li input").map(function() {
                 return $(this).attr("id")
                 return $(this).children().html();
             }).get();
