@@ -29,7 +29,7 @@
                 items.push({
                     html:
                     '<li>' +
-                    '<img src="' + val.url + '">' +
+                    '<img src="' + val.url + '" />' +
                     '<div data-type="editable" data-for="#' + key + '">' + val.text + '</div>' +
                     '<textarea class="hidden" id="' + key + '"></textarea>' +
                     '</li>',
@@ -37,7 +37,7 @@
                 });
             });
             items.sort(function(a, b) {
-                b.position - a.position;
+                return a.position - b.position;
             });
             items = $.map(items, function(val) {
                 return val.html
