@@ -2,27 +2,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<style type="text/css">
-		body { font-family:Arial; font-size:12pt; padding:20px; width:100%; margin:20px auto; }
-		ul { margin:0px; padding:0px; margin-left:20px; }
-		#photos { width:100%; list-style-type:none; margin:0px; }
-		#photos li { float:left; padding:5px; width:320px; height:340px; text-align:center;}
-		.placeHolder div { width:320px; height:340px; background-color:white !important; border:dashed 1px gray !important; }
+    <style type="text/css">
+        body { font-family:Arial; font-size:12pt; padding:20px; width:100%; margin:20px auto; }
+        ul { margin:0px; padding:0px; margin-left:20px; }
+        #photos { width:100%; list-style-type:none; margin:0px; }
+        #photos li { float:left; padding:5px; width:320px; height:340px; text-align:center;}
+        .placeHolder div { width:320px; height:340px; background-color:white !important; border:dashed 1px gray !important; }
         .hidden { display: none; }
-	</style>
+    </style>
 </head>
 <body>
     <ul id="photos"></ul>
 
-	<div style="clear:both;"></div>
+    <div style="clear:both;"></div>
 
-	<!-- save sort order here which can be retrieved on server on postback -->
-	<input name="photosOrder" />
+    <!-- save sort order here which can be retrieved on server on postback -->
+    <input name="photosOrder" />
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="jquery.dragsort.js"></script>
-	<script type="text/javascript" src="jquery.editable-1.0.1.js"></script>
-	<script type="text/javascript">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.dragsort.js"></script>
+    <script type="text/javascript" src="jquery.editable-1.0.1.js"></script>
+    <script type="text/javascript">
         $.getJSON('../', function(data) {
             var items = [];
             $.each(data, function(key, val) {
@@ -57,14 +57,14 @@
                 }
             });
         });
-		function savePhotosOrder() {
+        function savePhotosOrder() {
             var data = $("#photos li textarea").map(function() {
                 return $(this).attr("id")
                 return $(this).children().html();
             }).get();
-			$("input[name=photosOrder]").val(data.join("|"));
+            $("input[name=photosOrder]").val(data.join("|"));
             $.post("../reorder", {order: data.join("|")});
-		};
+        };
 
         $("#photos").dragsort({
             dragSelector: "img",
@@ -73,6 +73,6 @@
             placeHolderTemplate: "<li class='placeHolder'><div></div></li>"
         });
 
-	</script>
+    </script>
 </body>
 </html>
