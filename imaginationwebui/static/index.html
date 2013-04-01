@@ -12,14 +12,7 @@
 	</style>
 </head>
 <body>
-    <ul id="photos">
-        <li>
-            <div>
-                <span data-type="editable" data-for=".editable-area">Edit me!</span>
-                <textarea class="editable-area hidden"></textarea>
-            </div>
-        </li>
-    </ul>
+    <ul id="photos"></ul>
 
 	<div style="clear:both;"></div>
 
@@ -32,13 +25,22 @@
 	<script type="text/javascript">
         $.getJSON('../', function(data) {
             var items = [];
-            $.each(data, function(idx, val) {
-                items.push(
+            $.each(data, function(key, val) {
+                items.push({
+                    html:
                     '<li>' +
                     '<img src="' + val.url + '">' +
-                    '<div data-type="editable" data-for="#' + idx + '">' + val.text + '</div>' +
-                    '<textarea class="hidden" id="' + idx + '"></textarea>' +
-                    '</li>');
+                    '<div data-type="editable" data-for="#' + key + '">' + val.text + '</div>' +
+                    '<textarea class="hidden" id="' + key + '"></textarea>' +
+                    '</li>',
+                    position: val.position
+                });
+            });
+            items.sort(function(a, b) {
+                b.position - a.position;
+            });
+            items = $.map(items, function(val) {
+                return val.html
             });
             $('ul#photos').html(items.join(''));
             $('ul#photos').editables({
@@ -46,7 +48,12 @@
                     field.val(this.text());
                 },
                 beforeFreeze: function(display){
-                    display.text(this.val());
+                    var val = this.val();
+                    display.text(val);
+                    $.post("../update", {
+                        'slide': this.attr('id'),
+                        'text': val
+                    });
                 }
             });
         });
@@ -56,6 +63,7 @@
                 return $(this).children().html();
             }).get();
 			$("input[name=photosOrder]").val(data.join("|"));
+            $.post("../reorder", {order: data.join("|")});
 		};
 
         $("#photos").dragsort({
