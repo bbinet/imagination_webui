@@ -17,8 +17,7 @@ def update(request):
     return 'update'
 
 
-@view_config(route_name='export')
+@view_config(route_name='export', renderer='config.img.mak')
 def export(request):
-    resp = Response(content_type='text/plain')
-    request.registry.imgconfig.write(resp.body_file)
-    return resp
+    request.response.content_type = 'text/plain'
+    return {'slides': request.registry.slides.values()}
