@@ -23,6 +23,7 @@ def main(global_config, **settings):
     config.add_route('update', '/update')
     config.add_route('reorder', '/reorder')
     config.add_route('export', '/export')
+    config.add_route('flickrimport', '/flickrimport')
     config.scan()
     return config.make_wsgi_app()
 

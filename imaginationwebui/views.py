@@ -1,5 +1,7 @@
+import json
+import urllib2
+
 from pyramid.view import view_config
-from pyramid.response import Response
 
 
 @view_config(route_name='list', renderer='json')
@@ -25,3 +27,18 @@ def update(request):
 def export(request):
     request.response.content_type = 'text/plain'
     return {'slides': request.registry.slides.values()}
+
+
+@view_config(route_name='flickrimport', renderer='json')
+def flickrimport(request):
+    url = 'http://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=268c0d669b7b50a951bd0d6bb9ab2669&photoset_id=72157633137000735&format=json&nojsoncallback=1&extras=url_n,url_o,url_l'
+    data = json.load(urllib2.urlopen(url))
+    slides = {}
+    for i, photo in enumerate(data['photoset']['photo']):
+        slides[str(i)] = {
+                'url': photo['url_n'],
+                'text': photo['title'],
+                'position': i,
+                }
+    request.registry.slides = slides
+    return slides
