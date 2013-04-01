@@ -2,6 +2,12 @@ import json
 import urllib2
 
 from pyramid.view import view_config
+from pyramid.httpexceptions import HTTPFound
+
+
+@view_config(route_name='index')
+def index(request):
+    return HTTPFound(request.static_path('imaginationwebui:static/'))
 
 
 @view_config(route_name='list', renderer='json')
