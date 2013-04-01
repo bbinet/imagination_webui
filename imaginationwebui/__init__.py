@@ -15,7 +15,7 @@ def main(global_config, **settings):
 
     afs = AcidFS(settings['acidfs.repository'])
     config.registry.afs = afs
-    config.registry.imgconfig = get_imgconfig(afs, settings)
+    config.registry.slides = get_slides(afs, settings)
 
     config.include('pyramid_tm')
     config.add_static_view('static', 'static', cache_max_age=3600)
@@ -27,7 +27,7 @@ def main(global_config, **settings):
     return config.make_wsgi_app()
 
 
-def get_imgconfig(afs, settings):
+def get_slides(afs, settings):
     imgdefault = settings['imagination_default']
     imgpath = settings['acidfs.imaginationpath']
     if afs.exists(imgpath):
@@ -38,7 +38,16 @@ def get_imgconfig(afs, settings):
             imgtext = f.read()
     imgconfig = ConfigParser.RawConfigParser(allow_no_value=True)
     imgconfig.readfp(io.BytesIO(imgtext))
-    return imgconfig
+    slides = {}
+    for i in range(imgconfig.getint('slideshow settings', 'number of slides')):
+        slide = 'slide %d' % (i + 1)
+        url = imgconfig.get(slide, 'filename')
+        slides[str(i)] = {
+                'url': url,
+                'text': imgconfig.get(slide, 'text'),
+                'position': i
+                }
+    return slides
 
 
 @subscriber(NewRequest)
