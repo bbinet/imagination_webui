@@ -20,7 +20,7 @@ def reorder(request):
 def update(request):
     request.registry.slides[request.params['slide']]['text'] = \
             request.params.get('text', '')
-    return 'update'
+    return 'update successful'
 
 
 @view_config(route_name='export', renderer='config.img.mak')
