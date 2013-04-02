@@ -15,6 +15,9 @@ def main(global_config, **settings):
     afs = AcidFS(settings['acidfs.repository'])
     config.registry.afs = afs
     config.registry.slides = get_slides(afs, settings)
+    # if afs.session is not closed, the next transaction won't be bound
+    # to the AcidFS datastore
+    afs.session.close()
 
     config.include('pyramid_tm')
     config.add_static_view('static', 'static', cache_max_age=3600)
