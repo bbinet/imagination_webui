@@ -44,10 +44,10 @@ def flickrimport(request):
                 else request.registry.slides
     url = 'http://api.flickr.com/services/rest/' \
             '?method=flickr.photosets.getPhotos' \
-            '&api_key=268c0d669b7b50a951bd0d6bb9ab2669' \
+            '&api_key=2a2ce06c15780ebeb0b706650fc890b2' \
             '&photoset_id=%s&format=json&nojsoncallback=1' \
             '&extras=url_n,url_o,url_l' % setid
-            #'&api_key=2a2ce06c15780ebeb0b706650fc890b2'
+            #'&api_key=268c0d669b7b50a951bd0d6bb9ab2669' \
     data = json.load(urllib2.urlopen(url))
     photos = data['photoset']['photo']
     urls = map(itemgetter('url'), slides.values())
