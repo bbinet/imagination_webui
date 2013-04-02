@@ -1,11 +1,10 @@
-import io
-import transaction
-import ConfigParser
+import json
 
 from pyramid.config import Configurator
 from pyramid.events import NewRequest
 from pyramid.events import subscriber
 from acidfs import AcidFS
+import transaction
 
 
 def main(global_config, **settings):
@@ -30,25 +29,11 @@ def main(global_config, **settings):
 
 
 def get_slides(afs, settings):
-    imgdefault = settings['imagination_default']
     imgpath = settings['acidfs.imaginationpath']
+    slides = {}
     if afs.exists(imgpath):
         with afs.open(imgpath, 'r') as f:
-            imgtext = f.read()
-    else:
-        with open(imgdefault, 'r') as f:
-            imgtext = f.read()
-    imgconfig = ConfigParser.RawConfigParser(allow_no_value=True)
-    imgconfig.readfp(io.BytesIO(imgtext))
-    slides = {}
-    for i in range(imgconfig.getint('slideshow settings', 'number of slides')):
-        slide = 'slide %d' % (i + 1)
-        url = imgconfig.get(slide, 'filename')
-        slides[str(i)] = {
-                'url': url,
-                'text': imgconfig.get(slide, 'text'),
-                'position': i
-                }
+            slides = json.load(f)
     return slides
 
 
