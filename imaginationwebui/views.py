@@ -62,4 +62,10 @@ def flickrimport(request):
                 }
         count += 1
     request.registry.slides = slides
+    persist(request.registry)
     return slides
+
+
+def persist(reg):
+    with reg.afs.open(reg.settings['acidfs.imaginationpath'], 'wb') as f:
+        json.dump(reg.slides, f, indent=4, sort_keys=True)
