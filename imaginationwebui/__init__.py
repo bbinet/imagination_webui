@@ -42,4 +42,4 @@ def get_slides(afs, settings):
 
 @subscriber(NewRequest)
 def set_user(event):
-    transaction.get().setUser("Anonymous")
+    transaction.get().setUser("ImaginationWebUI")
