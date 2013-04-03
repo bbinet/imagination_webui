@@ -1,10 +1,9 @@
-import json
-
 from pyramid.config import Configurator
 from pyramid.events import NewRequest
 from pyramid.events import subscriber
-from acidfs import AcidFS
 import transaction
+
+from .lib import SlidesDataStore
 
 
 def main(global_config, **settings):
@@ -12,12 +11,7 @@ def main(global_config, **settings):
     """
     config = Configurator(settings=settings)
 
-    afs = AcidFS(settings['acidfs.repository'])
-    config.registry.afs = afs
-    config.registry.slides = get_slides(afs, settings)
-    # if afs.session is not closed, the next transaction won't be bound
-    # to the AcidFS datastore
-    afs.session.close()
+    config.registry.slides = SlidesDataStore(settings['acidfs.repository'])
 
     config.include('pyramid_tm')
     config.add_static_view('static', 'static', cache_max_age=3600)
@@ -29,15 +23,6 @@ def main(global_config, **settings):
     config.add_route('flickrimport', '/flickrimport')
     config.scan()
     return config.make_wsgi_app()
-
-
-def get_slides(afs, settings):
-    imgpath = settings['acidfs.imaginationpath']
-    slides = {}
-    if afs.exists(imgpath):
-        with afs.open(imgpath, 'r') as f:
-            slides = json.load(f)
-    return slides
 
 
 @subscriber(NewRequest)
