@@ -7,7 +7,8 @@
         ul { margin:0px; padding:0px; margin:0px; }
         h3 {text-align:center;}
         #photos { width:100%; list-style-type:none; margin:0px; }
-        #photos li { float:left; padding:30px 5px; width:320px; height:340px; text-align:center;}
+        #photos li { float:left; padding:30px 5px; width:320px; height:340px; text-align:center; }
+        #photos li a { font-size: 11px; position: absolute; padding: 5px; color: black; background-color:rgba(255,255,255,0.5); text-decoration: none; }
         .placeHolder div { width:320px; height:340px; background-color:white !important; border:dashed 1px gray !important; }
         .hidden { display: none; }
         .editable { width:100%; }
@@ -32,6 +33,7 @@
                 items.push({
                     html:
                     '<li>' +
+                    '<a href="' + val.url + '">big</a>' +
                     '<img src="' + val.thumb_url + '" />' +
                     '<div style="height:30px" data-type="editable" data-for="#' + key + '">' + val.text + '</div>' +
                     '<input class="hidden editable" id="' + key + '"></input>' +
