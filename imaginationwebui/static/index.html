@@ -3,13 +3,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <style type="text/css">
-        body { font-family:Arial; font-size:12pt; width:100%; margin:0; }
+        body { font-family:Arial; font-size:12px; width:100%; margin:0; }
         ul { margin:0px; padding:0px; margin:0px; }
         h3 {text-align:center;}
         #photos { width:100%; list-style-type:none; margin:0px; }
-        #photos li { float:left; padding:30px 5px; width:320px; height:340px; text-align:center; }
+        #photos li { float:left; text-align:center; }
+        #photos li.size0 { width:75px; height:95px; padding:5px 5px; }
+        #photos li.size1 { width:100px; height:120px; padding:10px 5px; }
+        #photos li.size2 { width:240px; height:260px; padding:20px 5px; }
+        #photos li.size3 { width:320px; height:340px; padding:30px 5px; }
+        #photos li.size4 { width:500px; height:520px; padding:30px 5px; }
         #photos li a { font-size: 11px; position: absolute; padding: 5px; color: black; background-color:rgba(255,255,255,0.5); text-decoration: none; }
-        .placeHolder div { width:320px; height:340px; background-color:white !important; border:dashed 1px gray !important; }
+        .placeHolder div { width:100%; height:100%; background-color:white !important; border:dashed 1px gray !important; }
         .hidden { display: none; }
         .editable { width:100%; }
     </style>
@@ -27,12 +32,24 @@
     <script type="text/javascript" src="jquery.dragsort.js"></script>
     <script type="text/javascript" src="jquery.editable-1.0.1.js"></script>
     <script type="text/javascript">
-        $.getJSON('../list', function(data) {
+        var queryParams = {};
+        if (window.location.search.length > 1) {
+            for (var aItKey, nKeyId = 0, aCouples = window.location.search.substr(1).split("&"); nKeyId < aCouples.length; nKeyId++) {
+                aItKey = aCouples[nKeyId].split("=");
+                queryParams[unescape(aItKey[0])] = aItKey.length > 1 ? unescape(aItKey[1]) : "";
+            }
+        }
+        var MAXSIZE = 4;
+        var size = parseInt(queryParams.size || MAXSIZE);
+        if (size > MAXSIZE) size = MAXSIZE;
+        console.log(size);
+
+        $.getJSON('../list' + window.location.search, function(data) {
             var items = [];
             $.each(data, function(key, val) {
                 items.push({
                     html:
-                    '<li>' +
+                    '<li class="size' + size + '">' +
                     '<a href="' + val.url + '">big</a>' +
                     '<img src="' + val.thumb_url + '" />' +
                     '<div style="height:30px" data-type="editable" data-for="#' + key + '">' + val.text + '</div>' +
@@ -82,7 +99,7 @@
             dragSelector: "img",
             dragBetween: true,
             dragEnd: savePhotosOrder,
-            placeHolderTemplate: "<li class='placeHolder'><div></div></li>"
+            placeHolderTemplate: '<li class="placeHolder size' + size + '"><div></div></li>'
         });
 
     </script>
