@@ -8,9 +8,9 @@
         h3 {text-align:center;}
         #photos { width:100%; list-style-type:none; margin:0px; }
         #photos li { float:left; text-align:center; }
-        #photos li.size0 { width:75px; height:95px; padding:5px 5px; }
-        #photos li.size1 { width:100px; height:120px; padding:10px 5px; }
-        #photos li.size2 { width:240px; height:260px; padding:20px 5px; }
+        #photos li.size0 { width:75px; height:95px; padding:5px 2px; }
+        #photos li.size1 { width:100px; height:120px; padding:10px 3px; }
+        #photos li.size2 { width:240px; height:260px; padding:20px 4px; }
         #photos li.size3 { width:320px; height:340px; padding:30px 5px; }
         #photos li.size4 { width:500px; height:520px; padding:30px 5px; }
         #photos li a { font-size: 11px; position: absolute; padding: 5px; color: black; background-color:rgba(255,255,255,0.5); text-decoration: none; }
@@ -40,11 +40,12 @@
             }
         }
         var MAXSIZE = 4;
-        var size = parseInt(queryParams.size || MAXSIZE);
+        var DEFAULTSIZE = 3;
+        var size = parseInt(queryParams.size || DEFAULTSIZE);
         if (size > MAXSIZE) size = MAXSIZE;
         console.log(size);
 
-        $.getJSON('../list' + window.location.search, function(data) {
+        $.getJSON('../list', {size: size}, function(data) {
             var items = [];
             $.each(data, function(key, val) {
                 items.push({
