@@ -99,11 +99,13 @@
                             return false;
                         }
                         var val = this.val();
-                        display.text(val);
-                        $.post("../update", {
-                            'slide': this.parent('.slide').attr('id'),
-                            'text': val
-                        });
+                        if (display.text() != val) {
+                            display.text(val);
+                            $.post("../update", {
+                                'slide': this.parent('.slide').attr('id'),
+                                'text': val
+                            });
+                        }
                     }
                 });
             }

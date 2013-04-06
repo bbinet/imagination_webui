@@ -35,8 +35,12 @@ def reorder(request):
 
 @view_config(route_name='update', renderer='string')
 def update(request):
+    text = request.params.get('text', '')
     slides = request.registry.slides.get()
-    slides[request.params['slide']]['text'] = request.params.get('text', '')
+    slide = slides[request.params['slide']]
+    if slide['text'] == text:
+        return 'nothing to update'
+    slide['text'] = text
     request.registry.slides.set(slides)
     return 'update successful'
 
