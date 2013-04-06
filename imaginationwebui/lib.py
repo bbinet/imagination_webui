@@ -14,7 +14,6 @@ class SlidesDataStore(object):
         # to the AcidFS datastore
         self._afs.session.close()
 
-
     def get(self):
         return copy.deepcopy(self._data)
 

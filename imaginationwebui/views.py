@@ -60,7 +60,7 @@ def flickrimport(request):
             'url_n',  # (suffix n) small, 320 on longest side
             'url_s',  # (suffix m) small, 240 on longest side
             'url_t',  # (suffix t) thumbnail, 100 on longest side
-            'url_sq', # (suffix s) small square 75x75
+            'url_sq',  # (suffix s) small square 75x75
             ]
     urltypes = [
             'url_o',  # (suffix o) original image
