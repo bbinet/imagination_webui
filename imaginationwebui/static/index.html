@@ -50,16 +50,16 @@
         var classes = 'size' + size;
         var editable_markup = '';
         var imagelink_markup = '';
-        if (queryParams['no-desc']) {
+        if (undefined !== queryParams['no-desc']) {
             classes += ' no-desc';
         }
         $.getJSON('../list', {size: size}, function(data) {
             var items = [];
             $.each(data, function(key, val) {
-                if (!queryParams['no-big']) {
+                if (undefined === queryParams['no-big']) {
                     imagelink_markup = '<a href="' + val.url + '">big</a>';
                 }
-                if (!queryParams['no-desc']) {
+                if (undefined === queryParams['no-desc']) {
                     editable_markup = '<div class="editable"  data-type="editable" data-for="#' +
                     key + '">' + val.text + '</div>\n' +
                     '<input class="hidden editable" id="' + key + '"></input>';
@@ -85,7 +85,7 @@
                 return val.html
             });
             $('ul#photos').html(items.join(''));
-            if (!queryParams['no-desc']) {
+            if (undefined === queryParams['no-desc']) {
                 $('ul#photos').editables({
                     freezeOn: ['click', 'blur', 'keyup'],
                     beforeEdit: function(field){
