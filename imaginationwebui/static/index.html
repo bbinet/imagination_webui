@@ -49,12 +49,16 @@
 
         var classes = 'size' + size;
         var editable_markup = '';
+        var imagelink_markup = '';
         if (queryParams['no-desc']) {
             classes += ' no-desc';
         }
         $.getJSON('../list', {size: size}, function(data) {
             var items = [];
             $.each(data, function(key, val) {
+                if (!queryParams['no-big']) {
+                    imagelink_markup = '<a href="' + val.url + '">big</a>';
+                }
                 if (!queryParams['no-desc']) {
                     editable_markup = '<div class="editable"  data-type="editable" data-for="#' +
                     key + '">' + val.text + '</div>\n' +
@@ -63,7 +67,7 @@
                 var markup = [
                     '<li class="' + classes + '">',
                     '<div class="vcentered">',
-                    '<a href="' + val.url + '">big</a>',
+                    imagelink_markup,
                     '<img src="' + val.thumb_url + '" />',
                     editable_markup,
                     '</div>',
