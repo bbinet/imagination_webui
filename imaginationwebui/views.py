@@ -71,7 +71,7 @@ def flickrimport(request):
 
     url = 'http://api.flickr.com/services/rest/' \
             '?method=flickr.photosets.getPhotos' \
-            '&api_key=70df7978819efb94c7efb85a2f3313e7' \
+            '&api_key=2a2ce06c15780ebeb0b706650fc890b2' \
             '&photoset_id=%s&format=json&nojsoncallback=1' \
             '&extras=%s' % (setid, ','.join(urltypes))
     data = json.load(urllib2.urlopen(url))
