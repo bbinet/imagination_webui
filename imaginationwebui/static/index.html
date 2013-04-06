@@ -3,20 +3,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <style type="text/css">
-        body { font-family:Arial; font-size:12px; width:100%; margin:0; }
+        body { font-family:Arial; font-size:12px; width:100%; margin:0; background-color:black; color:#ccc; }
         ul { margin:0px; padding:0px; margin:0px; }
         h3 {text-align:center;}
         #photos { width:100%; list-style-type:none; margin:0px; }
-        #photos li { float:left; text-align:center; }
-        #photos li.size0 { width:75px; height:95px; padding:5px 2px; }
-        #photos li.size1 { width:100px; height:120px; padding:10px 3px; }
-        #photos li.size2 { width:240px; height:260px; padding:20px 4px; }
-        #photos li.size3 { width:320px; height:340px; padding:30px 5px; }
-        #photos li.size4 { width:500px; height:520px; padding:30px 5px; }
-        #photos li a { font-size: 11px; position: absolute; padding: 5px; color: black; background-color:rgba(255,255,255,0.5); text-decoration: none; }
-        .placeHolder div { width:100%; height:100%; background-color:white !important; border:dashed 1px gray !important; }
-        .hidden { display: none; }
-        .editable { width:100%; }
+        #photos li { position:relative; float:left; text-align:center; border:solid 1px #444; }
+        #photos li.size0 { height:77px;  line-height:75px;  margin:30px 3px; }
+        #photos li.size1 { height:102px; line-height:100px; margin:30px 3px; }
+        #photos li.size2 { height:242px; line-height:240px; margin:30px 4px; }
+        #photos li.size3 { height:322px; line-height:320px; margin:30px 5px; }
+        #photos li.size4 { height:502px; line-height:500px; margin:30px 5px; }
+        #photos li.no-desc { margin-top:3px; margin-bottom:3px; }
+        #photos li .vcentered { vertical-align:middle; display:inline-block; line-height:1.2; /* on rétablit le line-height */ }
+        #photos li img { padding:0 1px; }
+        #photos li a { position:absolute; top:0; left:0; padding:5px; color:black; background-color:rgba(255,255,255,0.5); text-decoration:none; font-size:11px; }
+        .placeHolder div { width:100%; height:100%; border:dashed 1px white !important; }
+        .hidden { display:none; }
+        .editable { width:100%; position:absolute; bottom:-25px; left:0px; overflow:hidden; }
     </style>
 </head>
 <body>
@@ -43,19 +46,31 @@
         var DEFAULTSIZE = 3;
         var size = parseInt(queryParams.size || DEFAULTSIZE);
         if (size > MAXSIZE) size = MAXSIZE;
-        console.log(size);
 
+        var classes = 'size' + size;
+        var editable_markup = '';
+        if (queryParams['no-desc']) {
+            classes += ' no-desc';
+        }
         $.getJSON('../list', {size: size}, function(data) {
             var items = [];
             $.each(data, function(key, val) {
+                if (!queryParams['no-desc']) {
+                    editable_markup = '<div class="editable"  data-type="editable" data-for="#' +
+                    key + '">' + val.text + '</div>\n' +
+                    '<input class="hidden editable" id="' + key + '"></input>';
+                }
+                var markup = [
+                    '<li class="' + classes + '">',
+                    '<div class="vcentered">',
+                    '<a href="' + val.url + '">big</a>',
+                    '<img src="' + val.thumb_url + '" />',
+                    editable_markup,
+                    '</div>',
+                    '</li>'
+                ];
                 items.push({
-                    html:
-                    '<li class="size' + size + '">' +
-                    '<a href="' + val.url + '">big</a>' +
-                    '<img src="' + val.thumb_url + '" />' +
-                    '<div style="height:30px" data-type="editable" data-for="#' + key + '">' + val.text + '</div>' +
-                    '<input class="hidden editable" id="' + key + '"></input>' +
-                    '</li>',
+                    html: markup.join('\n'),
                     position: val.position
                 });
             });
@@ -66,26 +81,28 @@
                 return val.html
             });
             $('ul#photos').html(items.join(''));
-            $('ul#photos').editables({
-                freezeOn: ['click', 'blur', 'keyup'],
-                beforeEdit: function(field){
-                    field.val(this.text());
-                },
-                beforeFreeze: function(display, evt) {
-                    if ((evt.type == 'keyup') && (evt.which == 27)) {
-                        return true;
+            if (!queryParams['no-desc']) {
+                $('ul#photos').editables({
+                    freezeOn: ['click', 'blur', 'keyup'],
+                    beforeEdit: function(field){
+                        field.val(this.text());
+                    },
+                    beforeFreeze: function(display, evt) {
+                        if ((evt.type == 'keyup') && (evt.which == 27)) {
+                            return true;
+                        }
+                        if ((evt.type == 'keyup') && (evt.which != 13)) {
+                            return false;
+                        }
+                        var val = this.val();
+                        display.text(val);
+                        $.post("../update", {
+                            'slide': this.attr('id'),
+                            'text': val
+                        });
                     }
-                    if ((evt.type == 'keyup') && (evt.which != 13)) {
-                        return false;
-                    }
-                    var val = this.val();
-                    display.text(val);
-                    $.post("../update", {
-                        'slide': this.attr('id'),
-                        'text': val
-                    });
-                }
-            });
+                });
+            }
         });
         function savePhotosOrder() {
             var data = $("#photos li input").map(function() {
@@ -100,7 +117,7 @@
             dragSelector: "img",
             dragBetween: true,
             dragEnd: savePhotosOrder,
-            placeHolderTemplate: '<li class="placeHolder size' + size + '"><div></div></li>'
+            placeHolderTemplate: '<li class="placeHolder ' + classes + '"><div></div></li>'
         });
 
     </script>
