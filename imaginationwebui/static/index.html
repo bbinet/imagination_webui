@@ -29,7 +29,7 @@
     <div style="clear:both;"></div>
 
     <!-- save sort order here which can be retrieved on server on postback -->
-    <input type="hidden" name="photosOrder" />
+    <input name="photosOrder" />
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.dragsort.js"></script>
@@ -61,12 +61,12 @@
                 }
                 if (undefined === queryParams['no-desc']) {
                     editable_markup = '<div class="editable"  data-type="editable" data-for="#' +
-                    key + '">' + val.text + '</div>\n' +
-                    '<input class="hidden editable" id="' + key + '"></input>';
+                    key + ' input">' + val.text + '</div>\n' +
+                    '<input class="hidden editable"></input>';
                 }
                 var markup = [
                     '<li class="' + classes + '">',
-                    '<div class="vcentered">',
+                    '<div id="' + key + '" class="vcentered">',
                     imagelink_markup,
                     '<img src="' + val.thumb_url + '" />',
                     editable_markup,
@@ -101,7 +101,7 @@
                         var val = this.val();
                         display.text(val);
                         $.post("../update", {
-                            'slide': this.attr('id'),
+                            'slide': this.parent('.vcentered').attr('id'),
                             'text': val
                         });
                     }
@@ -109,9 +109,8 @@
             }
         });
         function savePhotosOrder() {
-            var data = $("#photos li input").map(function() {
+            var data = $("#photos li .vcentered").map(function() {
                 return $(this).attr("id")
-                return $(this).children().html();
             }).get();
             $("input[name=photosOrder]").val(data.join("|"));
             $.post("../reorder", {order: data.join("|")});
