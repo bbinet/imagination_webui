@@ -87,7 +87,7 @@
             $('ul#photos').html(items.join(''));
             if (undefined === queryParams['no-desc']) {
                 $('ul#photos').editables({
-                    freezeOn: ['click', 'blur', 'keyup'],
+                    freezeOn: ['blur', 'keyup'],
                     beforeEdit: function(field){
                         field.val(this.text());
                     },
