@@ -47,6 +47,7 @@
         var size = parseInt(queryParams.size || DEFAULTSIZE);
         if (size > MAXSIZE) size = MAXSIZE;
 
+        var initial_order = null;
         var classes = 'size' + size;
         var editable_markup = '';
         var imagelink_markup = '';
@@ -74,6 +75,7 @@
                     '</li>'
                 ];
                 items.push({
+                    id: key,
                     html: markup.join('\n'),
                     position: val.position
                 });
@@ -81,6 +83,9 @@
             items.sort(function(a, b) {
                 return a.position - b.position;
             });
+            initial_order = $.map(items, function(val) {
+                return val.id;
+            }).join('|');
             items = $.map(items, function(val) {
                 return val.html
             });
@@ -114,8 +119,27 @@
             var data = $("#photos li .slide").map(function() {
                 return $(this).attr("id")
             }).get();
-            $("input[name=photosOrder]").val(data.join("|"));
-            $.post("../reorder", {order: data.join("|")});
+            var order = data.join("|");
+            $("input[name=photosOrder]").val(order);
+            $.post("../reorder", {
+                order: order,
+                initial_order: initial_order
+            })
+            .done(function() {
+                initial_order = order;
+            })
+            .fail(function(resp) {
+                if (resp.status == 409) {
+                    alert('CONFLIT: un autre utilisateur a modifié l\'ordre ' +
+                        'des photos avant vous, veuillez recharger la page ' +
+                        'et recommencer.');
+                }
+                else {
+                    alert('Une erreur inconnue s\'est produite... La ' +
+                        'modification de l\'ordre n\'a pas été prise en ' +
+                        'compte.');
+                }
+              });
         };
 
         $("#photos").dragsort({

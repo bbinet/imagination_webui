@@ -3,7 +3,7 @@ import urllib2
 from operator import itemgetter
 
 from pyramid.view import view_config
-from pyramid.httpexceptions import HTTPFound
+from pyramid.httpexceptions import HTTPFound, HTTPConflict
 from pyramid.settings import asbool
 
 
@@ -27,6 +27,10 @@ def list(request):
 @view_config(route_name='reorder', renderer='json')
 def reorder(request):
     slides = request.registry.slides.get()
+    order = [k for k, v in sorted(
+        slides.iteritems(), key=lambda x: x[1]['position'])]
+    if request.params.get('initial_order') != '|'.join(order):
+        return HTTPConflict()
     for position, slide in enumerate(request.params.get('order').split('|')):
         slides[slide]['position'] = position
     request.registry.slides.set(slides)
