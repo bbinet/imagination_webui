@@ -42,10 +42,10 @@ def update(request):
     text = request.params.get('text', '')
     slides = request.registry.slides.get()
     slide = slides[request.params['slide']]
-    if request.params.get('initial_text') != slide['text']:
-        return HTTPConflict()
     if slide['text'] == text:
         return 'nothing to update'
+    if request.params.get('initial_text') != slide['text']:
+        return HTTPConflict()
     slide['text'] = text
     request.registry.slides.set(slides)
     return 'update successful'
