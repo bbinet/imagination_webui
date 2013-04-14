@@ -105,10 +105,27 @@
                         }
                         var val = this.val();
                         if (display.text() != val) {
-                            display.text(val);
                             $.post("../update", {
                                 'slide': this.parent('.slide').attr('id'),
-                                'text': val
+                                'text': val,
+                                'initial_text': display.text()
+                            })
+                            .done(function() {
+                                display.text(val);
+                            })
+                            .fail(function(resp) {
+                                if (resp.status == 409) {
+                                    alert('CONFLIT: un autre utilisateur a ' +
+                                        'modifié la légende de cette même ' +
+                                        'photo avant vous, veuillez ' +
+                                        'recharger la page et recommencer.');
+                                }
+                                else {
+                                    alert('Une erreur inconnue s\'est ' +
+                                        'produite... La modification de ' +
+                                        'l\'ordre n\'a pas été prise en ' +
+                                        'compte.');
+                                }
                             });
                         }
                     }
