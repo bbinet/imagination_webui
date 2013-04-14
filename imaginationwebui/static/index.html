@@ -97,7 +97,8 @@
                         field.val(this.text());
                     },
                     beforeFreeze: function(display, evt) {
-                        if ((evt.type == 'keyup') && (evt.which == 27)) {
+                        if ((evt.type == 'keyup') && (evt.which == 27)
+                            || (this.css('display') == 'none')) {
                             return true;
                         }
                         if ((evt.type == 'keyup') && (evt.which != 13)) {
