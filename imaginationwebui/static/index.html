@@ -8,6 +8,7 @@
         h3 {text-align:center;}
         #photos { width:100%; list-style-type:none; margin:0px; }
         #photos li { position:relative; float:left; text-align:center; border:solid 1px #444; }
+        #photos li.dragsort-selected { border-color:red; }
         #photos li.size0 { height:77px;  line-height:77px;  margin:30px 3px; }
         #photos li.size1 { height:102px; line-height:100px; margin:30px 3px; }
         #photos li.size2 { height:242px; line-height:240px; margin:30px 4px; }
@@ -35,6 +36,9 @@
     <script type="text/javascript" src="jquery.dragsort.js"></script>
     <script type="text/javascript" src="jquery.editable-1.0.1.js"></script>
     <script type="text/javascript">
+        var MAXSIZE = 4;
+        var DEFAULTSIZE = 3;
+
         var queryParams = {};
         if (window.location.search.length > 1) {
             for (var aItKey, nKeyId = 0, aCouples = window.location.search.substr(1).split("&"); nKeyId < aCouples.length; nKeyId++) {
@@ -42,8 +46,6 @@
                 queryParams[unescape(aItKey[0])] = aItKey.length > 1 ? unescape(aItKey[1]) : "";
             }
         }
-        var MAXSIZE = 4;
-        var DEFAULTSIZE = 3;
         var size = parseInt(queryParams.size || DEFAULTSIZE);
         if (size > MAXSIZE) size = MAXSIZE;
 
@@ -89,9 +91,11 @@
             items = $.map(items, function(val) {
                 return val.html
             });
-            $('ul#photos').html(items.join(''));
+            $('#photos').html(items.join(''));
+
+
             if (undefined === queryParams['no-desc']) {
-                $('ul#photos').editables({
+                $('#photos').editables({
                     freezeOn: ['blur', 'keyup'],
                     beforeEdit: function(field){
                         field.val(this.text());
@@ -164,7 +168,8 @@
             dragSelector: "img",
             dragBetween: true,
             dragEnd: savePhotosOrder,
-            placeHolderTemplate: '<li class="placeHolder ' + classes + '"><div></div></li>'
+            placeHolderTemplate: '<li class="placeHolder ' + classes + '"><div></div></li>',
+            multiSelect: true
         });
 
     </script>
