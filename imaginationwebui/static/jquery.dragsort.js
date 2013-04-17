@@ -22,6 +22,7 @@
 
       var newList = {
         draggedItem: null,
+        draggedMulti: null,
         placeHolderItem: null,
         pos: null,
         offset: null,
@@ -110,6 +111,17 @@
 
           list = lists[$(this).attr("data-listidx")];
           list.draggedItem = $(e.target).closest("[data-listidx] > " + opts.tagName)
+
+          if (opts.multiSelect) {
+            var selection = $(".dragsort-selected");
+            if (selection.length > 0) {
+                var index = selection.index(list.draggedItem);
+                var before = selection.slice(0, index);
+                var after = selection.slice(index + 1);
+                list.draggedMulti = [before, after];
+            }
+          }
+
 
           //record current position so on dragend we know if the dragged item changed position or not, not using getItems to allow dragsort to restore dragged item to original location in relation to fixed items
           list.draggedItem.attr("data-origpos", $(this).attr("data-listidx") + "-" + $(list.container).children().index(list.draggedItem));
@@ -270,8 +282,12 @@
 
           $("[data-droptarget], .dragSortItem").remove();
 
-          if (opts.multiSelect)
-            $(".dragsort-selected").removeClass("dragsort-selected").not(list.draggedItem).show().insertAfter(list.draggedItem);
+          if (list.draggedMulti) {
+            $(".dragsort-selected").removeClass("dragsort-selected").show();
+            list.draggedMulti[0].insertBefore(list.draggedItem);
+            list.draggedMulti[1].insertAfter(list.draggedItem);
+            list.draggedMulti = null;
+          }
 
           window.clearInterval(list.scroll.scrollY);
           window.clearInterval(list.scroll.scrollX);
