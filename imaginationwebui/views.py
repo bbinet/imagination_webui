@@ -12,7 +12,7 @@ def index(request):
     return HTTPFound(request.static_path('imaginationwebui:static/'))
 
 
-@view_config(route_name='list', renderer='json')
+@view_config(route_name='list', renderer='json', http_cache=0)
 def list(request):
     maxsize = int(request.params.get('size', 3))
     slides = request.registry.slides.get()
