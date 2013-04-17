@@ -67,6 +67,9 @@
           if (e.which != 1 || $(e.target).is(opts.dragSelectorExclude) || $(e.target).closest(opts.dragSelectorExclude).size() > 0 || !insideMoveableItem)
             return;
 
+          if (opts.multiSelect && e.ctrlKey)
+            $(item).addClass("dragsort-selected");
+
           //prevents selection, stops issue on Fx where dragging hyperlink doesn't work and on IE where it triggers mousemove even though mouse hasn't moved,
           //does also stop being able to click text boxes hence dragging on text boxes by default is disabled in dragSelectorExclude
           e.preventDefault();
@@ -85,6 +88,10 @@
           var trigger = function() {
             list.dragStart.call(listElem, e);
             $(list.container).unbind("mousemove", trigger);
+            if (opts.multiSelect) {
+              $(".dragsort-selected").hide();
+              $(item).show();
+            }
           };
           $(list.container).mousemove(trigger).mouseup(function() { $(list.container).unbind("mousemove", trigger); $(dragHandle).css("cursor", $(dragHandle).attr("data-cursor")); });
         },
@@ -255,6 +262,9 @@
 
           $("[data-droptarget], .dragSortItem").remove();
 
+          if (opts.multiSelect)
+            $(".dragsort-selected").removeClass("dragsort-selected").not(list.draggedItem).show().insertAfter(list.draggedItem);
+
           window.clearInterval(list.scroll.scrollY);
           window.clearInterval(list.scroll.scrollX);
 
@@ -372,7 +382,8 @@
     dragBetween: false,
     placeHolderTemplate: "",
     scrollContainer: window,
-    scrollSpeed: 5
+    scrollSpeed: 5,
+    multiSelect: false
   };
 
 })(jQuery);
