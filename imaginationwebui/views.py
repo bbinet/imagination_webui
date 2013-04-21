@@ -1,4 +1,5 @@
 import json
+import hashlib
 import urllib2
 from operator import itemgetter
 
@@ -24,7 +25,30 @@ def list(request):
     return slides
 
 
-@view_config(route_name='orderedlist', renderer='json', http_cache=0)
+def get_remote_md5_sum(url, max_file_size=100*1024*1024):
+    remote = urllib2.urlopen(url)
+    hash = hashlib.md5()
+    total_read = 0
+    while True:
+        data = remote.read(4096)
+        total_read += 4096
+        if not data or total_read > max_file_size:
+            break
+        hash.update(data)
+    return hash.hexdigest()
+
+
+@view_config(route_name='listbymd5', renderer='json')
+def listbymd5(request):
+    slides = request.registry.slides.get()
+    bymd5 = {}
+    for key, slide in slides.iteritems():
+        slide['id'] = key
+        bymd5[get_remote_md5_sum(slide['thumb_urls'][-1])] = slide
+    return bymd5
+
+
+@view_config(route_name='orderedlist', renderer='json')
 def orderedlist(request):
     slides = request.registry.slides.get()
     orderedslides = []
