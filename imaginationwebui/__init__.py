@@ -17,6 +17,7 @@ def main(global_config, **settings):
     config.add_static_view('static', 'static', cache_max_age=3600)
     config.add_route('index', '/')
     config.add_route('list', '/list')
+    config.add_route('orderedlist', '/orderedlist')
     config.add_route('update', '/update')
     config.add_route('reorder', '/reorder')
     config.add_route('export', '/export')

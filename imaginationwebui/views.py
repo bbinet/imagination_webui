@@ -24,6 +24,17 @@ def list(request):
     return slides
 
 
+@view_config(route_name='orderedlist', renderer='json', http_cache=0)
+def orderedlist(request):
+    slides = request.registry.slides.get()
+    orderedslides = []
+    for key, slide in slides.iteritems():
+        slide['id'] = key
+        orderedslides.append(slide)
+    orderedslides.sort(key=itemgetter('position'))
+    return orderedslides
+
+
 @view_config(route_name='reorder', renderer='json')
 def reorder(request):
     slides = request.registry.slides.get()
