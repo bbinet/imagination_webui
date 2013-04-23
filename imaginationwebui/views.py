@@ -89,8 +89,13 @@ def update(request):
 @view_config(route_name='export', renderer='config.img.mak')
 def export(request):
     request.response.content_type = 'text/plain'
-    slides = request.registry.slides.get()
-    return {'slides': slides.values()}
+    slides = request.registry.slides.get().values()
+    slides.sort(key=itemgetter('position'))
+    until = request.params.get('until')
+    if until:
+        del slides[next((i for i, v in enumerate(slides)
+            if until in v['text']), len(slides)):]
+    return {'slides': slides}
 
 
 @view_config(route_name='flickrimport', renderer='json')
