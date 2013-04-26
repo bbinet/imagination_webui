@@ -2,7 +2,7 @@
 #Imagination 2.0 Slideshow Project - http://imagination.sf.net
 
 [slideshow settings]
-video format=600
+video format=1080
 background color=0;0;0;
 distort images=false
 number of slides=${len(slides)}
@@ -20,7 +20,7 @@ anim id=1
 anim duration=1
 text pos=7
 placing=0
-font=Qlassik Bold, Bold Italic 22
+font=Mufferaw Bold 28
 font color=0;0;0;1;
 font bgcolor=1;1;1;1;
 % endfor
