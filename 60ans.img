@@ -1,4 +1,3 @@
-
 #Imagination 2.0 Slideshow Project - http://imagination.sf.net
 
 [slideshow settings]
@@ -1097,7 +1096,7 @@ font bgcolor=1;1;1;1;
 
 [slide 69]
 filename=8671697526_7141cb2626_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -1337,7 +1336,7 @@ font bgcolor=1;1;1;1;
 
 [slide 84]
 filename=8610113546_d0123efe66_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -1673,7 +1672,7 @@ font bgcolor=1;1;1;1;
 
 [slide 105]
 filename=8609021847_065e153a13_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -2441,7 +2440,7 @@ font bgcolor=1;1;1;1;
 
 [slide 153]
 filename=8609002139_9f0b798f61_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -2489,7 +2488,7 @@ font bgcolor=1;1;1;1;
 
 [slide 156]
 filename=8655312027_ff4b6b96c1_o.jpg
-angle=0
+angle=1
 duration=3
 transition_id=19
 speed=1
@@ -2569,7 +2568,7 @@ font bgcolor=1;1;1;1;
 
 [slide 161]
 filename=8655844729_dd9967d947_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -2665,7 +2664,7 @@ font bgcolor=1;1;1;1;
 
 [slide 167]
 filename=8609003383_ace9f72c96_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -2729,7 +2728,7 @@ font bgcolor=1;1;1;1;
 
 [slide 171]
 filename=8668750493_7312253e7d_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -2745,7 +2744,7 @@ font bgcolor=1;1;1;1;
 
 [slide 172]
 filename=8668751353_01bd864a36_o.jpg
-angle=0
+angle=3
 duration=3
 transition_id=19
 speed=1
@@ -3190,3 +3189,20 @@ placing=0
 font=Mufferaw Bold 28
 font color=0;0;0;1;
 font bgcolor=1;1;1;1;
+
+[music]
+number=14
+music_1=/home/data/multimedia/musique/mp3/GenSeries/Ma Sorcière bien Aimée.mp3
+music_2=/home/data/multimedia/musique/mp3/GenSeries/La croisiere s'amuse.mp3
+music_3=/home/data/multimedia/musique/mp3/GenSeries/Friends_zikonly.mp3
+music_4=/home/data/multimedia/musique/mp3/GenSeries/Droles de Dames.mp3
+music_5=/home/data/multimedia/musique/mp3/GenSeries/Hawaï.mp3
+music_6=/home/data/multimedia/musique/mp3/GenSeries/Happy Days.mp3
+music_7=/home/data/multimedia/musique/mp3/GenSeries/benny.mp3
+music_8=/home/data/multimedia/musique/mp3/GenSeries/Mission Impossible.mp3
+music_9=/home/data/multimedia/musique/mp3/GenSeries/K 2000.mp3
+music_10=/home/data/multimedia/musique/mp3/GenSeries/Magnum.mp3
+music_11=/home/data/multimedia/musique/mp3/GenSeries/Le Frelon Vert.mp3
+music_12=/home/data/multimedia/musique/mp3/GenSeries/Bioman.mp3
+music_13=/home/data/multimedia/musique/mp3/GenSeries/Buffy.mp3
+music_14=/home/data/multimedia/musique/mp3/GenSeries/La Sequence du spectateur.mp3
