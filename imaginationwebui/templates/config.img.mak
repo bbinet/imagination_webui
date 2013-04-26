@@ -10,7 +10,7 @@ number of slides=${len(slides)}
 
 [slide ${slide['position'] + 1}]
 filename=${slide['url']}
-text=${slide['text']}
+text=${slide['text']|n}
 angle=0
 duration=1
 transition_id=-1
