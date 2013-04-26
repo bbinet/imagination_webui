@@ -1,0 +1,3192 @@
+
+#Imagination 2.0 Slideshow Project - http://imagination.sf.net
+
+[slideshow settings]
+video format=1080
+background color=0;0;0;
+distort images=false
+number of slides=199
+
+[slide 1]
+filename=8643060014_acb1d1efa5_o.png
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Le 14 mai 1953 débarque un homme pas comme les autres!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 2]
+filename=8660930027_8953a7e1cc_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Même pas mal!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 3]
+filename=8662028942_9112ece329_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Derrière sa tête d'ange...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 4]
+filename=8668755001_9cc24d6e82_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Il se construit un caractère bien trempé
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 5]
+filename=8668752337_23ed764713_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Deuxième fils d'un père aimant et droit,
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 6]
+filename=8669857474_54dabf260b_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=et d'une mère dynamique!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 7]
+filename=8668756809_02b7524d06_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Le cadet de la famille...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 8]
+filename=8668753329_8846b1a5e2_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=... revendique sa place aux côtés de son grand frère
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 9]
+filename=8660930483_a4e477de28_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 10]
+filename=8660929725_51e6589245_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 11]
+filename=8664674787_ffbf0b75e9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Il s'impliquera activement dans le scoutisme,
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 12]
+filename=8662030556_b9eed5453a_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=portera fièrement l'uniforme des chasseurs alpins de Bourg St Maurice
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 13]
+filename=8665786566_baea33d46c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 14]
+filename=8665785470_12d8f79002_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 15]
+filename=8662028142_a95ff36a39_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Après l'effort, le réconfort!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 16]
+filename=8665781514_dd5410ff15_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 17]
+filename=8660928063_a5b9ff5676_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Côté sport, c'est le ski,
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 18]
+filename=8664675337_a5322c5311_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=l'équitation,
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 19]
+filename=8665433603_7dcfb9f146_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=la planche à voile, le tennis, l'escalade,
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 20]
+filename=8664681747_69d221df3e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Casse-cou un jour...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 21]
+filename=8655287941_2dc7f33b94_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Casse-cou toujours!!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 22]
+filename=8668779629_aba8363486_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Encore...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 23]
+filename=8670105182_10743da903_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et toujours!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 24]
+filename=8665800510_64f285611c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Côté boulot, le jeune cadre dynamique prend vite des responsabilités
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 25]
+filename=8665454723_938e79be1e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Côté perso, hum, c'est un peu plus excentrique, mais il sait s'amuser!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 26]
+filename=8620801714_486eb50a16_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Mais heureusement, séduite par ce beau jeune homme...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 27]
+filename=8665440739_bd01a17937_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 28]
+filename=8660922813_c3f94770a7_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=... Maman viendra remettre de l'ordre dans tout ça.
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 29]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Très vite, il devient papa!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 30]
+filename=8662022642_6aed90071d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=de Nicolas, le 19 septembre 1980
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 31]
+filename=8660923329_72eb0a88ba_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Bruno, le 10 septembre 1982
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 32]
+filename=8662023336_5b3b6259f3_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Jérôme, le 17 juillet 1984
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 33]
+filename=8660926599_bd6a6d5265_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et Perrine, le 18 avril 1991
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 34]
+filename=8666549508_7d691943e4_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Quelle émotion pour la naissance de Nicolas, son premier né!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 35]
+filename=8665443643_594a940ec2_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Nouveau look pour l'arrivée du petit Bruno
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 36]
+filename=8666551868_10c0134ef1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Jérôme, aussitôt sorti de la maternité, arrive aux Catounières
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 37]
+filename=8666557724_7b8db10b1c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Puis Perrine arrive avec un peu de retard dans une maison "désencombrée"!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 38]
+filename=8662023116_8f7f9a7758_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 39]
+filename=8660923999_97abe8323b_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Bruno asticote déjà son frère... :-)
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 40]
+filename=8665461633_b7fc7dfcea_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Papa et Nico dans "Alerte à Brétignolles"
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 41]
+filename=8666568592_9cc162c371_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Bruno, le plus beau !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 42]
+filename=8665792534_92dab73956_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Jérôme a déjà la grosse tête...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 43]
+filename=8665789532_08a87eed04_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et Perrine, la chouchoutte!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 44]
+filename=8662023702_0e9a32bc7a_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 45]
+filename=8660924435_91de23d37f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 46]
+filename=8662024250_bf226cc4f2_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 47]
+filename=8662024522_49f2cc4352_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 48]
+filename=8666537088_054140b6a5_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et oui il est gaga !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 49]
+filename=8666547108_7123ee5b1e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 50]
+filename=8660926005_810f36b67e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et ils grandissent...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 51]
+filename=8660925741_1084588925_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 52]
+filename=8660925481_3ee5acca8f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 53]
+filename=8660926277_508da21647_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 54]
+filename=8662024776_c957ab8df3_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 55]
+filename=8662027126_013392e9ef_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 56]
+filename=8660927723_62ee86dc57_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Grandissent encore...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 57]
+filename=8662026460_fee4a8b7c8_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 58]
+filename=8668598929_611fd69ddb_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=On dit "tel père, tel fils", non?
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 59]
+filename=8662026790_a6ce33aa10_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 60]
+filename=8670599917_ffeb7913f8_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=On pourrait aussi dire: "Tel père, telle fille!"
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 61]
+filename=8670594009_86cf79c33d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et oui c'est bien la fille...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 62]
+filename=8671699942_2e475f4544_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=... de son père!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 63]
+filename=8656440640_e3dc0bb326_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=En fait on va même dire: "tel père, tels enfants!"
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 64]
+filename=8656439700_9c029f324b_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 65]
+filename=8656462052_d749b29ba6_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 66]
+filename=8655336677_b5c1497152_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=No comment...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 67]
+filename=8671065205_b4b66865e4_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Malgré leur originalité, les trois garçons trouvent chaussures à leurs pieds.
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 68]
+filename=8668836951_9e9fe2c0d1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Des belles-filles incroyables !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 69]
+filename=8671697526_7141cb2626_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 70]
+filename=8668928313_50fb395de1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 71]
+filename=8668843761_ca66030433_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 72]
+filename=8671704304_8852b7c8c1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 73]
+filename=8671751434_f32f175e4e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 74]
+filename=8655279789_2be8660ff6_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Les mariages s'enchaînent!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 75]
+filename=8668837641_20c03ee311_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 76]
+filename=8668840945_dcae6b622d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 77]
+filename=8620749024_c0d140254e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Quelle fierté et quelle émotion pour lui!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 78]
+filename=8620748864_69d65534d5_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 79]
+filename=8619647601_ed1b066967_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=La descendance est assurée!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 80]
+filename=8662076098_b7198703fc_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Arrivent ainsi enfin les petites FILLES!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 81]
+filename=8660983659_600d08c9c4_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et de 1!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 82]
+filename=8619649059_683816be1b_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=areuh, areuuuuhh!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 83]
+filename=8609004421_89948418a4_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 84]
+filename=8610113546_d0123efe66_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 85]
+filename=8668846909_38476ffe53_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et de 2 !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 86]
+filename=8668850069_cb414636e9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 87]
+filename=8669958230_96601e5d1e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 88]
+filename=8619663167_8b820d4688_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 89]
+filename=8610120028_2df2ca323a_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et de 3 !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 90]
+filename=8619695625_b14afdf6f9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 91]
+filename=8609010699_0219917f8d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 92]
+filename=8609014833_138331a30f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 93]
+filename=8619671687_899db04ff6_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 94]
+filename=8609017473_7fb39f056e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et de 4 !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 95]
+filename=8670103634_3ab69770e6_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 96]
+filename=8668999481_efed6ba8bc_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 97]
+filename=8609022715_8f56bc56b2_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Choyé par ses petites filles, il adore ça!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 98]
+filename=8669955142_b8e7889144_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et de 5 !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 99]
+filename=8668934191_5c2512c7c7_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 100]
+filename=8668858263_79ebf7780e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 101]
+filename=8669968162_0c3a120080_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 102]
+filename=8671760116_fc47d6ea0e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Une belle brochette.. féminine! qui n'en finit pas!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 103]
+filename=8672315041_4ba0bd316c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Et de 6 !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 104]
+filename=8670655455_1f4bb15812_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 105]
+filename=8609021847_065e153a13_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 106]
+filename=8620766822_f4c4c3d6ac_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 107]
+filename=8671711106_f6aa5f307f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Bientôt 7!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 108]
+filename=8670033152_92d90b132e_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 109]
+filename=8670600141_664fca62c2_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 110]
+filename=8668938305_f98cc2fd41_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 111]
+filename=8672237004_178629e91f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Mais qu'en est-il de sa fille chérie?
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 112]
+filename=8672237122_37677c5d3f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Nul doute qu'elle trouvera elle aussi un mari...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 113]
+filename=8670599267_90ebe7df82_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=... formidable!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 114]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Les potes !!!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 115]
+filename=8619685825_d131ddc046_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Pour papa, les amis c'est essentiel!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 116]
+filename=8619679495_4b124b7243_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 117]
+filename=8619646241_f3a92f7c94_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 118]
+filename=8619698229_d228dec377_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 119]
+filename=8619656663_8e1820f411_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Avec les potes...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 120]
+filename=8619676413_45d0031e69_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Ca déconne bien!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 121]
+filename=8619690201_3f8a885b39_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Sa femme essaie de relever le niveau, c'est une SAINTE d'après lui!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 122]
+filename=8620788580_639468f378_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 123]
+filename=8619676097_4f2b1a503c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 124]
+filename=8619687871_3ba3ed3bc0_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 125]
+filename=8620793210_6f8bd17477_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Ca voyage bien!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 126]
+filename=8665778862_e892bf91b2_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 127]
+filename=8619660169_2dd41c5ba2_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 128]
+filename=8620782078_3bec965e37_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 129]
+filename=8620792592_1bd6e2d46f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 130]
+filename=8620783550_8539cd631b_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 131]
+filename=8620784484_3d83dbe80f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 132]
+filename=8620793898_a3226ef6dc_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 133]
+filename=8620782976_49abe7c334_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 134]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Vous connaissez sans doute un autre de ses traits caractéristiques?
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 135]
+filename=8620798286_52b270bd19_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Il ne vous fait pas penser à quelqu'un?
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 136]
+filename=8652603721_8b3470cd1d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 137]
+filename=8619651051_62354ccce8_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Ah oui c'est bien ce que je pensais...!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 138]
+filename=8619689015_35169341dd_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Une chose est sûre, il a des idées, et il se battra pour les défendre!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 139]
+filename=8619689193_20b960d19d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Une reconversion pour occuper sa retraite?
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 140]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Le Cabellou
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 141]
+filename=8619694525_dc72251229_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=En retraite au cabellou...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 142]
+filename=8619652661_e8aa3a8ef0_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=... son grand plaisir ...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 143]
+filename=8671069773_b36c3a14e1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=... c'est de naviguer!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 144]
+filename=8619651381_581c890de4_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 145]
+filename=8620797414_dfb5535527_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=A bord de Pibole puis Nimbus
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 146]
+filename=8671166647_a89ce128ab_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Pour le bonheur de ses enfants et petites filles!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 147]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Les petites filles au Cabellou
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 148]
+filename=8620779120_6251d834e4_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Mieux que la retraite au cabellou, les petits enfants au cabellou...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 149]
+filename=8609020089_3e7c38ac7f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 150]
+filename=8619654079_de1c61823d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 151]
+filename=8609007961_0194869e7a_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 152]
+filename=8620770116_03ee5b10fd_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 153]
+filename=8609002139_9f0b798f61_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 154]
+filename=8669964832_7e97bb41e4_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 155]
+filename=8620772332_0a81632041_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 156]
+filename=8655312027_ff4b6b96c1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 157]
+filename=8670478398_c49ecd6ffa_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 158]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Papa est multi-tâche:
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 159]
+filename=8620752464_e12e000753_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Il est bon danseur...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 160]
+filename=8619646793_2bfb7f6724_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Troubadour...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 161]
+filename=8655844729_dd9967d947_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Babysitter...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 162]
+filename=8656949966_0ca11226fe_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Equilibriste...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 163]
+filename=8620766476_cf99558896_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Apprenti informaticien...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 164]
+filename=8665777560_57fc0c0014_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Caméraman...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 165]
+filename=8664683005_bd22e4b58c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Pêcheur!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 166]
+filename=8620803078_2c9b4fa28d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Il cuisine ses trésors de pêche, d'accord...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 167]
+filename=8609003383_ace9f72c96_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Mais faut pas pousser non plus! Chacun son boulot!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 168]
+filename=8669091043_dbae055d53_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Pilote de course...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 169]
+filename=8620746860_d3736a023d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Pilote de hors-board...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 170]
+filename=8620761564_9464f71409_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Pilote d'hélico?
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 171]
+filename=8668750493_7312253e7d_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Pilote de cheval...
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 172]
+filename=8668751353_01bd864a36_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Conduite à revoir pour ce dernier cas !
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 173]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Sa passion?
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 174]
+filename=8660918671_3c0f9eef34_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Les voitures et la F1!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 175]
+filename=8669090467_701264dff3_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 176]
+filename=8620755414_e7e5b4e959_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Entre les deux, son coeur balance....!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 177]
+filename=8619689283_f87863c945_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Mais Prost ne peut rien contre les charmes de Ty-Mame.
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 178]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Photos de famille
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 179]
+filename=8620750748_071840f8a1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 180]
+filename=8671066661_4eddb75014_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 181]
+filename=8619664659_7ca9e4f233_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 182]
+filename=8672172748_2eb5394bc0_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 183]
+filename=8676585908_cd934ab23c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 184]
+filename=8672266090_51cab32a13_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 185]
+filename=8620753842_ccc06eb3e6_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 186]
+filename=8610130136_42bd871d02_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 187]
+filename=8663112019_57cac68bd9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Portraits d'un homme unique!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 188]
+filename=8619686599_77df238a47_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=S
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 189]
+filename=8619646347_c7910a6103_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=O
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 190]
+filename=8620780482_0e28dab112_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=I
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 191]
+filename=8619690131_76b6a0e6cb_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=X
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 192]
+filename=8620781190_0bc0dcfe33_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=A
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 193]
+filename=8619645233_21dc67dea1_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=N
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 194]
+filename=8620755778_9b6d2df193_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=T
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 195]
+filename=8619695125_2af6720e2f_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=E
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 196]
+filename=8620783842_e52243f166_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=A
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 197]
+filename=8620782594_928582e3d9_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=N
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 198]
+filename=8620761234_1f3d94889c_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=S
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
+
+[slide 199]
+filename=8619647107_a93211dbd7_o.jpg
+angle=0
+duration=3
+transition_id=19
+speed=1
+no_points=0
+text=Merci Papa et bon anniversaire!
+anim id=1
+anim duration=1
+text pos=7
+placing=0
+font=Mufferaw Bold 28
+font color=0;0;0;1;
+font bgcolor=1;1;1;1;
