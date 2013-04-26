@@ -2,25 +2,25 @@
 #Imagination 2.0 Slideshow Project - http://imagination.sf.net
 
 [slideshow settings]
-video format=576
+video format=600
 background color=0;0;0;
-distort images=true
+distort images=false
 number of slides=${len(slides)}
 % for slide in slides:
 
 [slide ${slide['position'] + 1}]
 filename=${slide['url']}
-text=${slide['text']}
 angle=0
-duration=1
-transition_id=-1
-speed=4
+duration=3
+transition_id=19
+speed=1
 no_points=0
-anim id=0
+text=${slide['text']}
+anim id=1
 anim duration=1
-text pos=4
+text pos=7
 placing=0
-font=Sans 12
+font=Qlassik Bold, Bold Italic 22
 font color=0;0;0;1;
 font bgcolor=1;1;1;1;
 % endfor
